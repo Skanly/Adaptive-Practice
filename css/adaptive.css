@@ -1,0 +1,119 @@
+@media screen and (max-width: 1200px) {
+    .platforms{
+        max-width: 500px;
+        padding-top: 150px;
+    }
+    .func-item p{
+        font-size: 14px;
+    }
+    .gif img{
+        max-height: 350px;
+    }
+    .download img{
+        max-width: 300px;
+        margin: 2px 30px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .functional p{
+        font-size: 13px;
+    }
+    .gif img{
+        max-height: 330px;
+    }
+    .download img{
+        max-width: 200px;
+        margin: 2px 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .platforms{
+        max-width: 400px;
+        padding-top: 180px;
+    }
+    .s-functions{
+        padding-top: -70px;
+    }
+    .func-item{
+        max-width: 700px;
+        margin: 3px;
+    }
+    .func{
+        margin-top: -14px;
+    }
+    .func-item img{
+        max-width: 32px;
+        max-height: 32px;
+        margin: 40px 30px;
+    }
+    .func-item p{
+        font-size: 13px;
+    }
+    .version{
+        margin-top: -60px;
+    }
+    .gif img{
+        max-height: 230px;
+        margin-right: -50px;
+        margin-top: 150px;
+    }
+    .download img{
+        max-width: 200px;
+        margin: 2px 250px;
+    }
+    .connect{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .imd-slogan{
+        background-image: none;
+    }
+    .slogan{
+        font-size: 15px;
+    }
+    .platforms{
+        max-width: 300px;
+        padding-top: 150px;
+    }
+    .s-functions{
+        background-image: none;
+        background-color: black;
+    }
+    .function{
+        padding-top: 15px;
+        font-size: 25px;
+    }
+    .rev{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .f-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .func{
+        margin-top: 14px;
+    }
+    .func-item p{
+        font-size: 17px;
+    }
+    .version{
+        margin-top: 0;
+    }
+    .gif{
+        display: flex;
+        flex-direction: column;
+    }
+    .gif img{
+        max-height: 330px;
+        margin-top: -20px;
+    }
+    .download img{
+        max-width: 200px;
+        margin: 2px 140px;
+    }
+    footer img {
+        max-width: 22px;
+    }
+}
